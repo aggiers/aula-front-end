@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layouts flexíveis com flexbox</title>
     <style>
+
         section {
 
-        display: flex;
-        
+            /* conteiner flex */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-end; 
+
+
             width: 700px;
             height: 500px;
             margin-left: auto;
@@ -25,16 +32,16 @@
             border-radius: 5px;
         }
         
-
-
-
-
-
-
-
     </style>
 </head>
 <body>
+
+    <section>
+        <article>item 1</article>
+        <article>item 2</article>
+        <article>item 3</article>
+        <article>item 4</article>
+    </section>
             
 
 </body>

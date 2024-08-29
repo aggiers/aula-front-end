@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(204, 226, 209);
+            
+        }
+        
+        article {
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 15px;
+            border: 1px dashed #283329;
+            border-radius: 10px;
+            background-color: rgb(219, 234, 223);
+            text-align: center;
+            box-shadow: 2px 2px 5px rgb(33, 40, 34);
+        }
+
+        article img {
+            width: 40px;
+        }
+        article h1 {
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+        article p {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+        }
+
+        .caixa-verde{
+            background-color: #283329;
+            color: white;
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    <article>
+
+        <img src="c:\Users\47688244803\Downloads\raio.png" alt="imagem de raio">
+        <h1>web design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit.</p>
+
+        
+    </article>
+    <article class="caixa-verde">
+
+        <img src="c:\Users\47688244803\Downloads\graphic.png" alt="imagem de raio">
+        <h1>graphic design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit.</p>
+
+    </article>
+    <article>
+
+        <img src="c:\Users\47688244803\Downloads\folder.png">
+        <h1>UI/UX design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit.</p>
+
+    
+    </article>
+    
+</body>
+</html>
